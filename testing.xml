@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Login">
+        <classes>
+            <class name = "Login.LoginTest" />
+        </classes>
+    </test>
+
+    <test name="Basic Authentication">
+        <classes>
+            <class name = "BasicAuthentication.BasicAuthenticationTest" />
+        </classes>
+    </test>
+
+    <test name="Challenging DOM">
+        <classes>
+            <class name = "ChallengingDom.ChallengingDomTest" />
+        </classes>
+    </test>
+
+    <test name="Checkboxes">
+        <classes>
+            <class name = "CheckBoxes.CheckBoxesTest" />
+        </classes>
+    </test>
+
+    <test name="Context Menu">
+        <classes>
+            <class name = "ContextMenu.ContextMenuTest" />
+        </classes>
+    </test>
+
+    <test name="Drag And Drop">
+        <classes>
+            <class name = "DragAndDrop.DragAndDropTest" />
+        </classes>
+    </test>
+
+    <test name="Drop Down">
+        <classes>
+            <class name = "DropDown.DropDownTest" />
+        </classes>
+    </test>
+
+    <test name="Add And Remove Elements">
+        <classes>
+            <class name = "AddAndRemoveElements.AddAndRemoveTest" />
+        </classes>
+    </test>
+
+    <test name="Dynamic Controls">
+        <classes>
+            <class name = "DynamicControls.DynamicControlsTest" />
+        </classes>
+    </test>
+
+    <test name="Exit Intent">
+        <classes>
+            <class name = "ExitIntent.ExitIntentTest" />
+        </classes>
+    </test>
+
+    <test name="File Upload">
+        <classes>
+            <class name = "FileUpload.FileUploadTest" />
+        </classes>
+    </test>
+
+    <test name="Horizontal Slider">
+        <classes>
+            <class name = "HorizontalSlider.HorizontalSliderTest" />
+        </classes>
+    </test>
+
+    <test name="Hovers">
+        <classes>
+            <class name = "Hovers.HoversTest" />
+        </classes>
+    </test>
+
+    <test name="Infinite Scroll">
+        <classes>
+            <class name = "InfiniteScroll.InfiniteScrollTest" />
+        </classes>
+    </test>
+
+    <test name="JavaScript Alerts">
+        <classes>
+            <class name = "JsAlerts.JsAlertsTest" />
+        </classes>
+    </test>
+
+    <test name="Key Presses">
+        <classes>
+            <class name = "KeyPresses.KeyPressesTest" />
+        </classes>
+    </test>
+
+    <test name="Large And Deep DOM">
+        <classes>
+            <class name = "LargeAndDeepDOM.LargeAndDeepDOMTest" />
+        </classes>
+    </test>
+
+    <test name="Nested Frames">
+        <classes>
+            <class name = "NestedFrames.NestedFramesTest" />
+        </classes>
+    </test>
+
+    <test name="Notification Page">
+        <classes>
+            <class name = "NotificationPage.NotificationPageTest" />
+        </classes>
+    </test>
+
+    <test name="Multiple Windows">
+        <classes>
+            <class name = "MultipleWindows.MultipleWindowsTest" />
+        </classes>
+    </test>
+
+    <test name="WYSIWYG Editor">
+        <classes>
+            <class name = "WYSIWYGEditor.WYSIWYGEditorTest" />
+        </classes>
+    </test>
+
+    <test name="Geolocation">
+        <classes>
+            <class name = "Geolocation.GeolocationTest" />
+        </classes>
+    </test>
+
+    <test name="Broken Images">
+        <classes>
+            <class name = "BrokenImages.BrokenImagesTest" />
+        </classes>
+    </test>
+
+    <test name="Console Logs">
+        <classes>
+            <class name = "ConsoleLogs.ConsoleLogsTest" />
+        </classes>
+    </test>
+
+</suite>
